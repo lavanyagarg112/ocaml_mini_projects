@@ -1,7 +1,3 @@
-Here's a simple `README.md` for your OCaml calculator project:
-
----
-
 # OCaml Calculator
 
 This is a simple command-line calculator written in OCaml that supports basic arithmetic operations such as addition, subtraction, multiplication, and division.
@@ -95,7 +91,3 @@ Result: 7.000000
 - Add support for more advanced operations (e.g., exponentiation, modulus).
 - Add support for multiple expressions (e.g., `3 + 4 * 2`).
 - Improve input parsing to handle more flexible formats.
-
----
-
-Feel free to modify the `README.md` based on additional features or changes in the project!
