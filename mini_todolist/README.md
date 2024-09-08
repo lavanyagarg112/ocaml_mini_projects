@@ -97,3 +97,28 @@ Goodbye!
   opam install dune
   ```
 
+## Future Enhancements
+
+### 1. **Better Exception Handling**
+   - Improve the exception handling logic to catch more specific errors, such as invalid input types, malformed commands, or edge cases.
+   - Implement custom exceptions to provide more informative feedback to the user and ensure the application doesn't crash unexpectedly.
+
+### 2. **Task Editing**
+   - Add the ability to **edit an existing task's description** or **priority** without deleting and recreating it.
+
+### 3. **Task Deadlines**
+   - Implement a feature to allow users to set deadlines for tasks and get reminders for upcoming deadlines.
+
+### 4. **Task Categories or Labels**
+   - Allow users to categorize tasks into different groups or assign labels for better organization (e.g., "Work", "Personal").
+
+### 5. **Task Search and Filter**
+   - Add a feature to **search for tasks by keyword** or **filter tasks by priority**, completion status, or category.
+
+### 6. **Persistent Storage**
+   - Add functionality to save tasks to a file and load them on application startup, allowing the user to keep their tasks between sessions.
+
+### 7. **Undo Feature**
+   - Implement an **undo** feature that allows users to reverse their most recent action, such as undoing a task deletion or completion.
+
+---
