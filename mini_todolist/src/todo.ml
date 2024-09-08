@@ -8,7 +8,8 @@ module Todo = struct
     isCompleted: bool;
   }
 
-  let string_to_priority = function
+  let string_to_priority input =
+    match input with
     | "Low" -> Low
     | "Medium" -> Medium
     | "High" -> High
