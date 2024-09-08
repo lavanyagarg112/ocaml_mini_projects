@@ -18,6 +18,8 @@ module Todo = struct
 
   let complete_task todo = { todo with isCompleted = true }
 
+  let uncomplete_task todo = { todo with isCompleted = false }
+
   let show_task todo =
     Printf.printf "Task: %s (Priority: %s, Completed: %b)\n"
       todo.task (match todo.priority with Low -> "Low" | Medium -> "Medium" | High -> "High")

@@ -1,4 +1,4 @@
 (executable
   (name main)
-  (modules todo todoList main)
+  (modules todo todoList commandProcessor main)
   (libraries))
