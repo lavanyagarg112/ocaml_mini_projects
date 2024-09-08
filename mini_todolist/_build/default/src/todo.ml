@@ -8,6 +8,12 @@ module Todo = struct
     isCompleted: bool;
   }
 
+  let string_to_priority = function
+    | "Low" -> Low
+    | "Medium" -> Medium
+    | "High" -> High
+    | _ -> failwith "Invalid priority, please enter Low, Medium, or High."
+
   let create_task id task priority = { id; task; priority; isCompleted = false }
 
   let complete_task todo = { todo with isCompleted = true }
